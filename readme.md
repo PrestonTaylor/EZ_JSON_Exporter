@@ -1,7 +1,7 @@
 # Ez JSON Exporter
-    This is a Prometheus JSON exporter that scrapes an endpoint and exports it in Prometheus format on demand. It is designed to  be easily configurable while being more flexible than the official Prometheus JSON exporter which unfortunately has an extremely limited implementation of JSONPath. Performance will be worse but I would gladly trade CPU time for my time. The goal of this is to be able to export arbitrary numbers of metrics at arbitrary nested levels and locations and likely appropriate labels with only a single line or 2 of config. 
+This is a Prometheus JSON exporter that scrapes an endpoint and exports it in Prometheus format on demand. It is designed to  be easily configurable while being more flexible than the official Prometheus JSON exporter which unfortunately has an extremely limited implementation of JSONPath. Performance will be worse but I would gladly trade CPU time for my time. The goal of this is to be able to export arbitrary numbers of metrics at arbitrary nested levels and locations and likely appropriate labels with only a single line or 2 of config. 
     
-    Because lots of defaults are set for you and some assumptions are made about what labels you might want unless you specify, it's possible to get duplicate series. Check logs and output.
+Because lots of defaults are set for you and some assumptions are made about what labels you might want unless you specify, it's possible to get duplicate series. Check logs and output.
 
 ## Usage
 
