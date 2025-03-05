@@ -1,0 +1,6 @@
+jsonpath-ng
+flask
+gunicorn
+gevent>=1.4.0
+pyyaml
+requests

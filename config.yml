@@ -1,0 +1,16 @@
+---
+modules:
+  mymodule:
+    scrape_configs:
+      mystats:
+        fix_nested_data: ["$..[value]"]
+        scraper_type: http
+        scraper_settings:
+          scheme: "https"
+          insecure: true
+          username: yo
+          password: letmein
+          path: "/mgmt/shared/telemetry/pullconsumer/scrapme"
+        metrics:
+          TODO example
+         
